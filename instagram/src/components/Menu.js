@@ -1,5 +1,6 @@
 import "../styles/menu.scss";
 import ProfileIcon from "./ProfileIcon";
+import image from "../images/profile.png";
 
 import { ReactComponent as Home } from "../images/home.svg";
 import { ReactComponent as Inbox } from "../images/inbox.svg";
@@ -12,7 +13,7 @@ function Menu() {
     <Inbox className="icon" />
     <Explore className="icon" />
     <Notifications className="icon" />
-    <ProfileIcon />
+    <ProfileIcon iconSize="small" image={image} />
   </div>
 }
 
