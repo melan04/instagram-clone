@@ -1,4 +1,5 @@
 import "../styles/menu.scss";
+
 import {ReactComponent as Home} from "../images/home.svg";
 import {ReactComponent as Inbox} from "../images/inbox.svg";
 import {ReactComponent as Explore} from "../images/explore.svg";
