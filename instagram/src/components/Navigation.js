@@ -1,4 +1,5 @@
 import "../styles/navigation.scss"
+
 import logo from "../images/instagramLogo.png"
 import searchIcon from "../images/searchIcon.png"
 import Menu from "./Menu.js"
