@@ -1,10 +1,11 @@
 
-import '../styles/App.scss';
+import "../styles/App.scss";
+import Navigation from "./Navigation"
 
 function App() {
   return (
     <div className="App">
-Hello World ! 
+<Navigation />
     </div>
   );
 }
